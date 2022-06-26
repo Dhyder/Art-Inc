@@ -1,0 +1,129 @@
+{% extends 'alpha.html' %}
+{% block content %}
+
+<div id="video-container">
+    <div class="video-overlay"></div>
+    <div class="video-content">
+        <div class="inner">
+            <h1 style="color: coral;">The Artic <em>Gallery</em></h1>
+
+            <div class="scroll-icon">
+                <a class="scrollTo" data-scrollTo="masonry" href="#"><img src="/static/images/scroll-icon.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <video autoplay="" loop="" muted>
+        <source src="/static/vid.mp4" type="video/mp4" />
+    </video>
+</div>
+
+
+<div class="masonry-portfolio" id="masonry">
+    <div class="container-fluid">
+        <div class="masonry">
+            <div class="item first-item col-md-4 col-sm-6 col-xs-12">
+                <div class="">
+                    <div class="hover-effect">
+                        <div class="hover-content">
+                            <h1>Artic <em>Museum</em></h1>
+                            <p>Lorem ipsum dolor, sit amet</p>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="/static/images/1.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="item col-md-4 col-sm-6 col-xs-12">
+                <div class="">
+                    <div class="hover-effect">
+                        <div class="hover-content">
+                            <h1>Artic <em>Museum</em></h1>
+                            <p>Lorem ipsum dolor, sit amet</p>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="/static/images/2.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="item col-md-4 col-sm-6 col-xs-12">
+                <div class="">
+                    <div class="hover-effect">
+                        <div class="hover-content">
+                            <h1>Artic <em>Museum</em></h1>
+                            <p>Lorem ipsum dolor, sit amet</p>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="/static/images/3.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="item col-md-4 col-sm-6 col-xs-12">
+                <div class="">
+                    <div class="hover-effect">
+                        <div class="hover-content">
+                            <h1>Artic <em>Museum</em></h1>
+                            <p>Lorem ipsum dolor, sit amet</p>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="/static/images/4.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="item col-md-4 col-sm-6 col-xs-12">
+                <div class="thumb">
+                    <div class="hover-effect">
+                        <div class="hover-content">
+                            <h1>Artic <em>Museum</em></h1>
+                            <p>Lorem ipsum dolor, sit amet</p>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="/static/images/5.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="item col-md-4 col-sm-6 col-xs-12">
+                <div class="thumb">
+                    <div class="hover-effect">
+                        <div class="hover-content">
+                            <h1>Artic <em>Museum</em></h1>
+                            <p>Lorem ipsum dolor, sit amet</p>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="/static/images/6.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="item last-item col-md-8 col-sm-6 col-xs-12">
+                <div class="thumb">
+                    <div class="hover-effect">
+                        <div class="hover-content">
+                            <h1>Artic <em>Museum</em></h1>
+                            <p>Lorem ipsum dolor, sit amet</p>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="/static/images/7.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="container-fluid">
+        <div class="col-md-12">
+            <p>Copyright &copy; 2021 The Artic
+
+                | Designed by Artic-Team</p>
+        </div>
+    </div>
+</footer>
+
+{% endblock %}
